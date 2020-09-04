@@ -1,0 +1,6 @@
+﻿  main.c
+C:\Users\Mohammed Hany\source\repos\readability\readability\main.c(7,1): error C2084: function 'int main(int,char **)' already has a body
+C:\Users\Mohammed Hany\source\repos\readability\readability\get_string.h(24): message : see previous definition of 'main'
+C:\Users\Mohammed Hany\source\repos\readability\readability\main.c(9,29): warning C4013: 'get_string' undefined; assuming extern returning int
+C:\Users\Mohammed Hany\source\repos\readability\readability\main.c(9,1): error C2075: 'text': array initialization requires a brace-enclosed initializer list
+C:\Users\Mohammed Hany\source\repos\readability\readability\main.c(44,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data

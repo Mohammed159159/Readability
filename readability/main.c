@@ -43,7 +43,12 @@ int main(void)
     float S = ratio * sentences;  // Evaluating the average number of sentences in 100 words
 
     float index = 0.0588 * L - 0.296 * S - 15.8;  // Evaluating the Coleman-Liau index
-
+    
+    // printing text details
+    printf("\nLetters: %d", letters);
+    printf("\nWords: %d, words);
+    printf("\nSentences: %d, sentences);
+    printf("\n\n Estimated Grade level: ");
     // Doing final check on the Results and printing them out
     if (round(index) < 1)
     {
